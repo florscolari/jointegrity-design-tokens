@@ -1,9 +1,112 @@
 {
-  "global": {},
+  "primitives": {
+    "$description": {
+      "value": "Primitives color palette",
+      "type": "other"
+    },
+    "$schema": {
+      "value": "https://design-tokens.org/schema.json",
+      "type": "other"
+    },
+    "color": {
+      "blue": {
+        "500": {
+          "value": "#2196f3",
+          "type": "color"
+        },
+        "600": {
+          "value": "#1e88e5",
+          "type": "color"
+        }
+      },
+      "white": {
+        "value": "#ffffff",
+        "type": "color"
+      },
+      "gray": {
+        "300": {
+          "value": "#e0e0e0",
+          "type": "color"
+        }
+      }
+    }
+  },
+  "semantic": {
+    "$description": {
+      "value": "Semantic color tokens for buttons",
+      "type": "other"
+    },
+    "$schema": {
+      "value": "https://design-tokens.org/schema.json",
+      "type": "other"
+    },
+    "color": {
+      "button": {
+        "primary": {
+          "bg": {
+            "default": {
+              "value": "{color.blue.500}",
+              "type": "color"
+            },
+            "hover": {
+              "value": "{color.blue.600}",
+              "type": "color"
+            }
+          },
+          "text": {
+            "default": {
+              "value": "{color.white}",
+              "type": "color"
+            }
+          },
+          "border": {
+            "default": {
+              "value": "{color.blue.500}",
+              "type": "color"
+            }
+          }
+        }
+      }
+    }
+  },
+  "component": {
+    "$description": {
+      "value": "Component-level button color tokens",
+      "type": "other"
+    },
+    "$schema": {
+      "value": "https://design-tokens.org/schema.json",
+      "type": "other"
+    },
+    "color": {
+      "button": {
+        "primary": {
+          "background": {
+            "value": "{color.button.primary.bg.default}",
+            "type": "color"
+          },
+          "hoverBackground": {
+            "value": "{color.button.primary.bg.hover}",
+            "type": "color"
+          },
+          "text": {
+            "value": "{color.button.primary.text.default}",
+            "type": "color"
+          },
+          "border": {
+            "value": "{color.button.primary.border.default}",
+            "type": "color"
+          }
+        }
+      }
+    }
+  },
   "$themes": [],
   "$metadata": {
     "tokenSetOrder": [
-      "global"
+      "primitives",
+      "semantic",
+      "component"
     ]
   }
 }
