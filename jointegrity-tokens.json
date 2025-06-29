@@ -1,106 +1,614 @@
 {
   "primitives": {
-    "$description": {
-      "value": "Primitives color palette",
-      "type": "other"
-    },
-    "$schema": {
-      "value": "https://design-tokens.org/schema.json",
-      "type": "other"
-    },
     "color": {
       "blue": {
+        "50": {
+          "value": "#f3f8fc",
+          "type": "color"
+        },
+        "100": {
+          "value": "#e8f1f9",
+          "type": "color"
+        },
+        "200": {
+          "value": "#d0e3f2",
+          "type": "color"
+        },
+        "300": {
+          "value": "#a1c7e6",
+          "type": "color"
+        },
+        "400": {
+          "value": "#73abd9",
+          "type": "color"
+        },
         "500": {
-          "value": "#2196f3",
+          "value": "#448fcd",
           "type": "color"
         },
         "600": {
-          "value": "#1e88e5",
+          "value": "#1573c0",
+          "type": "color"
+        },
+        "700": {
+          "value": "#115c9a",
+          "type": "color"
+        },
+        "800": {
+          "value": "#0d4573",
+          "type": "color"
+        },
+        "900": {
+          "value": "#082e4d",
+          "type": "color"
+        },
+        "950": {
+          "value": "#041726",
           "type": "color"
         }
       },
-      "white": {
-        "value": "#ffffff",
+      "grey": {
+        "50": {
+          "value": "#fbfbfb",
+          "type": "color"
+        },
+        "100": {
+          "value": "#f6f7f7",
+          "type": "color"
+        },
+        "200": {
+          "value": "#eeeeef",
+          "type": "color"
+        },
+        "300": {
+          "value": "#dcdedf",
+          "type": "color"
+        },
+        "400": {
+          "value": "#cbcdcf",
+          "type": "color"
+        },
+        "500": {
+          "value": "#b9bdbf",
+          "type": "color"
+        },
+        "600": {
+          "value": "#a8acaf",
+          "type": "color"
+        },
+        "700": {
+          "value": "#868a8c",
+          "type": "color"
+        },
+        "800": {
+          "value": "#656769",
+          "type": "color"
+        },
+        "900": {
+          "value": "#434546",
+          "type": "color"
+        },
+        "950": {
+          "value": "#222223",
+          "type": "color"
+        }
+      },
+      "orange": {
+        "50": {
+          "value": "#fff8f3",
+          "type": "color"
+        },
+        "100": {
+          "value": "#fff2e8",
+          "type": "color"
+        },
+        "200": {
+          "value": "#ffe5d1",
+          "type": "color"
+        },
+        "300": {
+          "value": "#fecba2",
+          "type": "color"
+        },
+        "400": {
+          "value": "#feb174",
+          "type": "color"
+        },
+        "500": {
+          "value": "#fd9745",
+          "type": "color"
+        },
+        "600": {
+          "value": "#fd7d17",
+          "type": "color"
+        },
+        "700": {
+          "value": "#ca6412",
+          "type": "color"
+        },
+        "800": {
+          "value": "#984b0e",
+          "type": "color"
+        },
+        "900": {
+          "value": "#653209",
+          "type": "color"
+        },
+        "950": {
+          "value": "#331905",
+          "type": "color"
+        }
+      },
+      "red": {
+        "50": {
+          "value": "#fef6f5",
+          "type": "color"
+        },
+        "100": {
+          "value": "#fceceb",
+          "type": "color"
+        },
+        "200": {
+          "value": "#f9dad7",
+          "type": "color"
+        },
+        "300": {
+          "value": "#f3b5b0",
+          "type": "color"
+        },
+        "400": {
+          "value": "#ee8f88",
+          "type": "color"
+        },
+        "500": {
+          "value": "#e86a61",
+          "type": "color"
+        },
+        "600": {
+          "value": "#e24539",
+          "type": "color"
+        },
+        "700": {
+          "value": "#b5372e",
+          "type": "color"
+        },
+        "800": {
+          "value": "#882922",
+          "type": "color"
+        },
+        "900": {
+          "value": "#5a1c17",
+          "type": "color"
+        },
+        "950": {
+          "value": "#2d0e0b",
+          "type": "color"
+        }
+      },
+      "yellow": {
+        "50": {
+          "value": "#fefbf3",
+          "type": "color"
+        },
+        "100": {
+          "value": "#fcf8e8",
+          "type": "color"
+        },
+        "200": {
+          "value": "#faf0d1",
+          "type": "color"
+        },
+        "300": {
+          "value": "#f5e2a3",
+          "type": "color"
+        },
+        "400": {
+          "value": "#efd375",
+          "type": "color"
+        },
+        "500": {
+          "value": "#eac547",
+          "type": "color"
+        },
+        "600": {
+          "value": "#e5b619",
+          "type": "color"
+        },
+        "700": {
+          "value": "#b79214",
+          "type": "color"
+        },
+        "800": {
+          "value": "#896d0f",
+          "type": "color"
+        },
+        "900": {
+          "value": "#5c490a",
+          "type": "color"
+        },
+        "950": {
+          "value": "#2e2405",
+          "type": "color"
+        }
+      },
+      "green": {
+        "50": {
+          "value": "#f4fcf6",
+          "type": "color"
+        },
+        "100": {
+          "value": "#e9f9ed",
+          "type": "color"
+        },
+        "200": {
+          "value": "#d3f3db",
+          "type": "color"
+        },
+        "300": {
+          "value": "#a7e7b8",
+          "type": "color"
+        },
+        "400": {
+          "value": "#7adb94",
+          "type": "color"
+        },
+        "500": {
+          "value": "#4ecf71",
+          "type": "color"
+        },
+        "600": {
+          "value": "#22c34d",
+          "type": "color"
+        },
+        "700": {
+          "value": "#1b9c3e",
+          "type": "color"
+        },
+        "800": {
+          "value": "#14752e",
+          "type": "color"
+        },
+        "900": {
+          "value": "#0e4e1f",
+          "type": "color"
+        },
+        "950": {
+          "value": "#07270f",
+          "type": "color"
+        }
+      },
+      "purple": {
+        "50": {
+          "value": "#f7f6fc",
+          "type": "color"
+        },
+        "100": {
+          "value": "#efedfa",
+          "type": "color"
+        },
+        "200": {
+          "value": "#dfdbf5",
+          "type": "color"
+        },
+        "300": {
+          "value": "#bfb7ea",
+          "type": "color"
+        },
+        "400": {
+          "value": "#a093e0",
+          "type": "color"
+        },
+        "500": {
+          "value": "#806fd5",
+          "type": "color"
+        },
+        "600": {
+          "value": "#604bcb",
+          "type": "color"
+        },
+        "700": {
+          "value": "#4d3ca2",
+          "type": "color"
+        },
+        "800": {
+          "value": "#3a2d7a",
+          "type": "color"
+        },
+        "900": {
+          "value": "#261e51",
+          "type": "color"
+        },
+        "950": {
+          "value": "#130f29",
+          "type": "color"
+        }
+      },
+      "teal": {
+        "50": {
+          "value": "#f6fbfd",
+          "type": "color"
+        },
+        "100": {
+          "value": "#ecf7fb",
+          "type": "color"
+        },
+        "200": {
+          "value": "#d9f0f7",
+          "type": "color"
+        },
+        "300": {
+          "value": "#b3e0ef",
+          "type": "color"
+        },
+        "400": {
+          "value": "#8ed1e7",
+          "type": "color"
+        },
+        "500": {
+          "value": "#68c1df",
+          "type": "color"
+        },
+        "600": {
+          "value": "#42b2d7",
+          "type": "color"
+        },
+        "700": {
+          "value": "#358eac",
+          "type": "color"
+        },
+        "800": {
+          "value": "#286b81",
+          "type": "color"
+        },
+        "900": {
+          "value": "#1a4756",
+          "type": "color"
+        },
+        "950": {
+          "value": "#0d242b",
+          "type": "color"
+        }
+      },
+      "black": {
+        "value": "#080909",
         "type": "color"
       },
-      "gray": {
+      "white": {
+        "value": "#fcfdfd",
+        "type": "color"
+      }
+    },
+    "typography": {
+      "font": {
+        "family": {
+          "default": {
+            "value": "IBM Plex Sans",
+            "type": "fontFamily"
+          }
+        },
+        "weight": {
+          "regular": {
+            "value": "400",
+            "type": "fontWeight"
+          },
+          "medium": {
+            "value": "500",
+            "type": "fontWeight"
+          },
+          "semibold": {
+            "value": "600",
+            "type": "fontWeight"
+          }
+        }
+      },
+      "lineHeight": {
+        "100": {
+          "value": "150%",
+          "type": "lineHeight"
+        },
+        "200": {
+          "value": "171%",
+          "type": "lineHeight"
+        }
+      },
+      "fontSize": {
+        "button": {
+          "value": "14px",
+          "type": "dimension"
+        }
+      }
+    },
+    "size": {
+      "scale": {
+        "0": {
+          "value": 0,
+          "type": "number"
+        },
+        "25": {
+          "value": 1,
+          "type": "number"
+        },
+        "50": {
+          "value": 2,
+          "type": "number"
+        },
+        "100": {
+          "value": 4,
+          "type": "number"
+        },
+        "200": {
+          "value": 8,
+          "type": "number"
+        },
         "300": {
-          "value": "#e0e0e0",
-          "type": "color"
+          "value": 12,
+          "type": "number"
+        },
+        "400": {
+          "value": 16,
+          "type": "number"
+        },
+        "500": {
+          "value": 20,
+          "type": "number"
+        },
+        "600": {
+          "value": 24,
+          "type": "number"
+        },
+        "700": {
+          "value": 28,
+          "type": "number"
+        },
+        "800": {
+          "value": 32,
+          "type": "number"
+        },
+        "900": {
+          "value": 36,
+          "type": "number"
+        },
+        "1000": {
+          "value": 40,
+          "type": "number"
+        },
+        "1100": {
+          "value": 44,
+          "type": "number"
+        },
+        "1200": {
+          "value": 48,
+          "type": "number"
+        },
+        "1300": {
+          "value": 52,
+          "type": "number"
+        },
+        "1400": {
+          "value": 56,
+          "type": "number"
+        },
+        "1500": {
+          "value": 60,
+          "type": "number"
+        },
+        "1600": {
+          "value": 64,
+          "type": "number"
+        }
+      },
+      "size": {
+        "64": {
+          "value": 64,
+          "type": "number"
+        },
+        "80": {
+          "value": 80,
+          "type": "number"
+        },
+        "120": {
+          "value": 120,
+          "type": "number"
+        },
+        "160": {
+          "value": 160,
+          "type": "number"
+        },
+        "180": {
+          "value": 180,
+          "type": "number"
+        },
+        "200": {
+          "value": 200,
+          "type": "number"
+        },
+        "280": {
+          "value": 280,
+          "type": "number"
+        },
+        "480": {
+          "value": 480,
+          "type": "number"
         }
       }
     }
   },
   "semantic": {
-    "$description": {
-      "value": "Semantic color tokens for buttons",
-      "type": "other"
-    },
-    "$schema": {
-      "value": "https://design-tokens.org/schema.json",
-      "type": "other"
-    },
-    "color": {
-      "button": {
-        "primary": {
-          "bg": {
-            "default": {
-              "value": "{color.blue.500}",
-              "type": "color"
-            },
-            "hover": {
-              "value": "{color.blue.600}",
-              "type": "color"
-            }
-          },
-          "text": {
-            "default": {
-              "value": "{color.white}",
-              "type": "color"
-            }
-          },
-          "border": {
-            "default": {
-              "value": "{color.blue.500}",
-              "type": "color"
-            }
-          }
-        }
-      }
-    }
-  },
-  "component": {
-    "$description": {
-      "value": "Component-level button color tokens",
-      "type": "other"
-    },
-    "$schema": {
-      "value": "https://design-tokens.org/schema.json",
-      "type": "other"
-    },
-    "color": {
-      "button": {
-        "primary": {
+    "button": {
+      "primary": {
+        "default": {
           "background": {
-            "value": "{color.button.primary.bg.default}",
-            "type": "color"
-          },
-          "hoverBackground": {
-            "value": "{color.button.primary.bg.hover}",
+            "value": "{color.blue.600}",
             "type": "color"
           },
           "text": {
-            "value": "{color.button.primary.text.default}",
+            "value": "{color.white}",
+            "type": "color"
+          },
+          "icon": {
+            "value": "{color.white}",
+            "type": "color"
+          },
+          "typography": {
+            "value": {
+              "fontFamily": "{typography.font.family.default}",
+              "fontWeight": "{typography.font.weight.medium}",
+              "fontSize": "{typography.fontSize.button}",
+              "lineHeight": "{typography.lineHeight.200}"
+            },
+            "type": "typography"
+          }
+        },
+        "hover": {
+          "background": {
+            "value": "{color.blue.700}",
+            "type": "color"
+          },
+          "text": {
+            "value": "{color.white}",
+            "type": "color"
+          },
+          "icon": {
+            "value": "{color.white}",
+            "type": "color"
+          }
+        },
+        "focus": {
+          "background": {
+            "value": "{color.blue.600}",
+            "type": "color"
+          },
+          "text": {
+            "value": "{color.white}",
+            "type": "color"
+          },
+          "icon": {
+            "value": "{color.white}",
             "type": "color"
           },
           "border": {
-            "value": "{color.button.primary.border.default}",
+            "value": "{color.blue.500}",
+            "type": "color"
+          }
+        },
+        "disabled": {
+          "background": {
+            "value": "{color.grey.300}",
+            "type": "color"
+          },
+          "text": {
+            "value": "{color.grey.700}",
+            "type": "color"
+          },
+          "icon": {
+            "value": "{color.grey.700}",
             "type": "color"
           }
         }
       }
     }
   },
+  "component": {},
   "$themes": [],
   "$metadata": {
     "tokenSetOrder": [
